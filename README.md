@@ -24,7 +24,23 @@ limitations under the License.
 
 > Detect native [`Uint8ClampedArray`][mdn-uint8clampedarray] support.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-has-uint8clampedarray-support
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
@@ -32,26 +48,8 @@ limitations under the License.
 
 <!-- eslint-disable id-length -->
 
-To use in Observable,
-
 ```javascript
-hasUint8ClampedArraySupport = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-uint8clampedarray-support@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-uint8clampedarray-support@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.hasUint8ClampedArraySupport;
-})();
-</script>
+var hasUint8ClampedArraySupport = require( '@stdlib/assert-has-uint8clampedarray-support' );
 ```
 
 #### hasUint8ClampedArraySupport()
@@ -75,13 +73,8 @@ var bool = hasUint8ClampedArraySupport();
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-uint8clampedarray-support@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var hasUint8ClampedArraySupport = require( '@stdlib/assert-has-uint8clampedarray-support' );
 
 var bool = hasUint8ClampedArraySupport();
 if ( bool ) {
@@ -89,18 +82,65 @@ if ( bool ) {
 } else {
     console.log( 'Environment lacks Uint8ClampedArray support.' );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
 
 <!-- /.examples -->
 
+* * *
 
+<section class="cli">
+
+## CLI
+
+<section class="installation">
+
+## Installation
+
+To use the module as a general utility, install the module globally
+
+```bash
+npm install -g @stdlib/assert-has-uint8clampedarray-support
+```
+
+</section>
+
+<!-- CLI usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```text
+Usage: has-uint8clampedarray-support [options]
+
+Options:
+
+  -h,    --help                Print this message.
+  -V,    --version             Print the package version.
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+### Examples
+
+```bash
+$ has-uint8clampedarray-support
+<boolean>
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.cli -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -175,6 +215,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/assert-has-uint8clampedarray-support/tree/deno
 [umd-url]: https://github.com/stdlib-js/assert-has-uint8clampedarray-support/tree/umd
 [esm-url]: https://github.com/stdlib-js/assert-has-uint8clampedarray-support/tree/esm
+[branches-url]: https://github.com/stdlib-js/assert-has-uint8clampedarray-support/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-has-uint8clampedarray-support/main/LICENSE
 
