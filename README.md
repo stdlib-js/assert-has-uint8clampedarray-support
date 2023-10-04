@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import hasUint8ClampedArraySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-uint8clampedarray-support@deno/mod.js';
+import hasUint8ClampedArraySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-uint8clampedarray-support@v0.1.1-deno/mod.js';
 ```
 
 #### hasUint8ClampedArraySupport()
@@ -69,7 +69,7 @@ var bool = hasUint8ClampedArraySupport();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import hasUint8ClampedArraySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-uint8clampedarray-support@deno/mod.js';
+import hasUint8ClampedArraySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-uint8clampedarray-support@v0.1.1-deno/mod.js';
 
 var bool = hasUint8ClampedArraySupport();
 if ( bool ) {
